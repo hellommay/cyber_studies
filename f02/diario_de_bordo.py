@@ -13,4 +13,3 @@ try:
             print(f"{numero}: {linha.strip()}")
 except FileNotFoundError:
     print("Caderno ainda vazio, escreva a primeira anotacao acima!")
-    

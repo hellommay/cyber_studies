@@ -6,6 +6,7 @@ def media(notas):
     resultado_media = soma / len(notas)
     return resultado_media
 
+
 def classificar(nota):
     if nota >= 90:
         return "louvor"
@@ -13,5 +14,6 @@ def classificar(nota):
         return "aprovado"
     else:
         return "reprovado"
-
+    
+    
 print(classificar(media([85, 92, 78])))
